@@ -1,0 +1,5 @@
+| Protocol | Source IP     | Destination IP | TTL | Packet Length | Flags              |
+| -------- | -----------   | -------------- | --- | ------------- | --------------     |
+| ICMP     | 10.120.44.249 | 8.8.8.8        | 128 | 74 bytes      | 0x0                |
+| HTTP     | 23.46.187.8   | 10.120.44.249  | 55  | 326 bytes     | 0x018(PSH, ACK)    |
+| DNS      | 10.120.44.9   | 10.120.44.249  | 64  | 297 bytes     | 0x2, Don't Fragment|
